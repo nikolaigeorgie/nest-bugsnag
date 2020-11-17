@@ -11,11 +11,6 @@
     "node": "12.x"
   },
   "type": "git",
-  "url": "https://github.com/nkaurelien/nest-bugsnag",
-  "homepage": "https://github.com/nkaurelien/nest-bugsnag",
-  "bugs": {
-    "url": "https://github.com/nkaurelien/nest-bugsnag/issues"
-  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Nkaurelien Kamitbrains",
@@ -34,12 +29,12 @@
   "dependencies": {
     "@bugsnag/js": "^7.5.1",
     "@bugsnag/plugin-express": "^7.3.5",
-    "@nestjs/common": "^6.11.11",
-    "@nestjs/core": "^6.11.11",
+    "@nestjs/common": "^7.0.0",
+    "@nestjs/core": "^7.0.0",
     "@nestjs/platform-express": "^6.11.11",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^2.7.1",
-    "rxjs": "^6.5.5"
+    "rxjs": "^6.6.3"
   },
   "devDependencies": {
     "@nestjs/testing": "6.5.3",
